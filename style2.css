@@ -1,0 +1,274 @@
+
+@charset "utf-8";
+*{
+    margin:0;padding:0;
+}
+.title{
+	background-color:wheat;
+	text-align:center;
+	line-height:60px;
+	font-size:27px;
+}
+body
+{
+    margin:0 auto
+}
+.simg{
+	width: 100%;
+	height: 500px;
+}
+.main{
+    width:100%;
+	margin:0 auto;
+	overflow:visible;
+}
+.box1{
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+
+}
+.box2 {
+	width:100%;
+	background: #0c7bd6;
+	float:left;
+}
+.box2 .img{
+	width:30%;
+	float:left;
+}
+
+.box2 .img img{
+	height:90px;
+	float:left;
+}
+
+.clear{
+     clear:both;
+    }
+a{
+    color:#333;text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+li{
+    list-style-type:none;
+}
+img{
+    width:auto;max-width:100%;
+}
+.box2 ul{
+	background: #0c7bd6;
+	float:left;
+	right:5vw;
+	top:0;
+	line-height:90px;
+}
+.box2 ul li{
+	display:inline;
+	margin-right:7vw;
+}
+.box2 ul li a.active{
+	color:#fff;
+}
+.box2 ul li a{
+	color:#fff;
+}
+.box2 li:hover a{
+	color:#fff;
+}
+.box3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: wheat;
+	font-family: 楷体;
+	margin: 0;
+}
+.box4{
+    font-size: 25px;
+    text-align: center;
+    background-color: wheat;
+	font-family: 楷体;
+}
+.box5{
+	font-family: 楷体;
+	font-size: 25px;
+	line-height: 60px;
+	height:60px;
+    text-align:center;
+	color: #FFF;
+    background: #0c7bd6;
+}
+.box6{
+	font-family: 楷体;
+	font-size: 25px;
+	margin: 10px;
+	
+}
+.fttp1 img{
+	width: 500px;
+	height: 400px;
+	float: left;
+}
+.fttp2 img{
+	width: 500px;
+	height: 400px;
+	float: right;
+}
+.foot1{
+	width: 100%;
+	height: 400px;
+}
+.tp{
+    margin: 20px;
+	padding: 10px;
+	line-height: 50px;
+}
+
+.jjcs 
+{
+	width:1200px;    
+	text-align: justify;	
+}
+.jjcs .text
+{
+	padding:10px;
+}
+.jjcs  .img
+{
+	text-align:center;
+}
+.jjcs  .desc
+{
+	padding:10px;
+	text-align:left;
+	text-align: justify;
+}
+.jjcs  .list
+{
+	text-align:center;
+}
+.jjcs  .img
+{
+	margin:10px auto;
+	height:450px;
+}
+.jjcs  .simg
+{
+	width:570px;margin:10px;
+	height:300px;
+}
+.alpx 
+{
+	width:1200px;   
+	text-align:justify;
+}
+.alpx  .text
+{
+	padding:10px;
+}
+.alpx  .img
+{
+	text-align:center;
+}
+.alpx  .desc
+{
+	padding:10px;
+	text-align:left;
+	float:left;
+	width:580px;
+}
+.alpx  .list
+{
+	width:580px;padding-bottom:10px;
+	padding-left:10px;
+	float:left;
+}
+.alpx  .img
+{
+	height:400px;
+	width:570px;
+	margin-right:5px;
+}
+.alpx  .slist
+{
+	width:580px;
+	padding-bottom:10px;
+	padding-left:10px;
+	float: left;
+}
+.alpx  .simg1
+{
+	height:310px;
+	width:570px;
+	margin:10px; 
+	float:left;
+}
+.jiujicuoshi 
+{
+width:1200px;    text-align: justify;
+	
+}
+.jiujicuoshi .text
+{
+padding:10px;
+}
+
+.jiujicuoshi  .img
+{
+
+text-align:center;
+}
+.jiujicuoshi  .desc
+{
+padding:10px;
+text-align:left;
+float:left;
+text-align: justify;
+}
+.jiujicuoshi  .list
+{
+text-align:center;
+}
+.jiujicuoshi  .img
+{
+margin:10px auto;
+
+}
+.jiujicuoshi  img
+{
+height:400px;}
+
+.jiujicuoshi  .simg
+{
+float:left;
+width:373px;margin:10px;height:200px;
+}
+.nav {
+	font-family: "楷体";
+	font-size: 25px;
+	width:100%; 
+	margin:0 auto;
+}
+.er {
+	width:100%; 
+	background:#FFF;
+}
+.er p {
+	line-height:30px; 
+	text-indent:2em;
+}
+.p1{
+	/* color: #F00; */
+	padding:20px;
+}
+.tt{
+	display:flex;
+	justify-content:center;
+}
+.tt img {
+	margin-left:30px; 
+	margin-top:20px;
+}
